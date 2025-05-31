@@ -17,6 +17,6 @@ The repo consists of xx folders, listed with contents in table below
 | | |
 | | |
 | | |
-| | |
-| | |
-| | |
+| sw_files | Contains the solidwork files for, rudder, gooseneck and mast angle measurement system. |
+| Test_060525 | Raw data from test 6.may 2025. including data from our system, weahter data from sintef bouy and the two admos|
+| Test_090425 | Raw data from test 9. april 2025. including data from our system, weahter data from sintef bouy and the two admos|
