@@ -1,0 +1,81 @@
+13:17:05 dårlig tacks 
+13:20:58 bedre slag
+13:25:12 mer krenging på båten
+13:29:50 tauing
+13:34:02 bra slag
+13:40:52 dårlige slag
+13:51:18 mast langt ut til siden
+
+
+start første tacks: 13:16:50
+slutt første tacks: 13:25:30
+
+start andre tacks:13:34:00
+slutt andre tacks:13:47:30
+
+tacks1:
+master_analyse\weather> python .\average_wind_plot.py
+Average Wind Direction (no outliers): 290.30 degrees
+Median Wind Direction (with outliers): 290.00 degrees
+avg course = 309.04
+EOWD = 308.23
+
+tacks2:
+master_analyse\weather> python .\average_wind_plot.py
+Average Wind Direction (no outliers): 279.47 degrees
+Median Wind Direction (with outliers): 280.00 degrees
+avg course = 312.86
+EOWD = 307.26
+
+export_highlight_csv.py
+add_wind_column.py
+add_VMG_column.py
+plot_save_all_turns.py
+rename_tacks_folder_things.py
+eowd_column_add.py
+scale_to_deg_tacks.py
+
+calib
+ror midtpunkt:1800
+stigning = 4095/270
+Pot3 (Gooseneck) Min Value: 1698
+Pot3 (Gooseneck) Max Value: 2511
+midtpunkt = 1698+(2511-1698)/2 = 2104.5
+stigning = 4095/270
+
+tacks1:
+1:13:17:11.300
+2:13:17:46.300
+3:13:18:13.700
+4:13:18:36.500
+5:13:19:06.400
+6:13:19:41.100
+7:13:20:08.700
+8:13:21:14.300
+9:13:21:45.400
+10:13:22:14.200
+11:13:22:50.000
+12:13:23:19.800
+13:13:24:04.000
+14:13:24:39.400
+
+tacks2:
+1:13:34:34.000
+2:13:35:04.500
+3:13:35:58.700
+4:13:36:26.900
+5:13:37:03.200
+6:13:37:35.700
+7:13:38:20.700
+8:13:38:55.800
+9:13:39:35.300
+10:13:40:15.300
+11:13:41:04.800
+12:13:41:36.700
+13:13:42:11.200
+14:13:42:50.600
+15:13:44:02.500
+16:13:44:48.500
+17:13:45:35.100
+18:13:46:24.900
+19:13:46:53.400
