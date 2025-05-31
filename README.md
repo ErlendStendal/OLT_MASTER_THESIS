@@ -7,7 +7,7 @@ This repository contains all resulting data from test and code used in microcont
 ChatGPT is used to generate code.
 
 ## Code overview
-The repo consists of xx folders, listed with contents in table below
+The repo consists of 5 folders, listed with contents in table below
 
 | Folder name | Description |
 |-|-|
